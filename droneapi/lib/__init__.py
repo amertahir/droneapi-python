@@ -221,6 +221,7 @@ class Vehicle(HasObservers):
     mode              VehicleMode
     airspeed          double (FIXME - should this move somewhere else?)
     groundspeed       double
+    heading           int
     gps_0             GPSInfo
     battery_0_soc     double
     battery_0_volt    double
